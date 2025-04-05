@@ -1,15 +1,15 @@
 ﻿# Face Recognition Real-Time
 
 ## 📁 Struktur Folder
-<pre> ```├── images/
-├── venv/
-├── venv310/
-├── .gitignore
-├── eigenface_pipeline.pkl
-├── main.py
-├── README.md
-├── requirements.txt
-├── workshop.py <\pre>
+- images/
+- venv/
+- venv310/
+- .gitignore
+- eigenface_pipeline.pkl
+- main.py
+- README.md
+- requirements.txt
+- workshop.py <\pre>
 
 ## ⚙️ Instalasi
 1. Clone repository ini:
