@@ -1,6 +1,6 @@
 ﻿# Face Recognition Real-Time
 
-## Struktur Folder
+## 📁 Struktur Folder
 ├── images/
 ├── venv/
 ├── venv310/
@@ -20,7 +20,7 @@
 3. Install dependensi:
 'pip install -r requirements.txt'
 
-## Jalankan
+## 🚀 Jalankan
 'python main.py'
 
 ## Author
