@@ -1,7 +1,8 @@
 ﻿# Face Recognition Real-Time
 
 ## 📁 Struktur Folder
-<pre>```├── images/
+```
+├── images/
 ├── venv/
 ├── venv310/
 ├── .gitignore
@@ -9,7 +10,7 @@
 ├── main.py
 ├── README.md
 ├── requirements.txt
-├── workshop.py´´´<pre>
+├── workshop.py```
 
 
 ## ⚙️ Instalasi
