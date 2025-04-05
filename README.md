@@ -1,7 +1,7 @@
 ﻿# Face Recognition Real-Time
 
 ## 📁 Struktur Folder
-<pre>├── images/
+<pre> ```├── images/
 ├── venv/
 ├── venv310/
 ├── .gitignore
