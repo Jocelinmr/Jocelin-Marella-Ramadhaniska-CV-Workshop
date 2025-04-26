@@ -22,7 +22,9 @@ pip install -r requirements.txt
 ```
 
 ## 🚀 Jalankan
-'python main.py'
+```python
+python main.py
+```
 
 ## Author
 Nama: Jocelin Marella Ramadhaniska
