@@ -17,7 +17,9 @@
 2. Masuk ke folder proyek:
 'cd Face_Recognition_Real_Time'
 3. Install dependensi:
-'pip install -r requirements.txt'
+```bash
+pip install -r requirements.txt
+```
 
 ## 🚀 Jalankan
 'python main.py'
