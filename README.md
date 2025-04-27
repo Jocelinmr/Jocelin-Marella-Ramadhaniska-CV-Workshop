@@ -46,7 +46,10 @@ python main.py
 - Model training hasil dari dataset lokal
 
 ## 📷 Contoh Output
+Untuk real-time face recognition melalui webcam:
 ![Real-Time Face Recognition](preview.jpg)
+Non-real-time face recognition
+![Non Real-Time Face Recognition](preview2.png)
 
 ## 👤 Author
 - Nama: Jocelin Marella Ramadhaniska
