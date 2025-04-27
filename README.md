@@ -13,6 +13,7 @@ Proyek ini merupakan implementasi sistem deteksi dan pengenalan wajah secara rea
 ├── README.md                   # Dokumentasi proyek
 ├── requirements.txt            # List library yang dibutuhkan
 ├── workshop.py                 # Kode face recognition yang tidak real-time
+├── workshop.ipnyb              # Kode face recognition yang tidak real-time ditambah dengan dataset images Jocelin_Marella
 ```
 
 ## ⚙️ Instalasi
@@ -48,7 +49,8 @@ python main.py
 ## 📷 Contoh Output
 Untuk real-time face recognition melalui webcam:
 ![Real-Time Face Recognition](preview.jpg)
-Non-real-time face recognition
+Non-real-time face recognition: 
+//masih ada beberapa kesalahan prediksi
 ![Non Real-Time Face Recognition](preview2.png)
 
 ## 👤 Author
