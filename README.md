@@ -40,6 +40,11 @@ Jalankan file utama untuk memulai real-time face recognition:
 ```python
 python main.py
 ```
+- Webcam akan muncul ketika program berhasil dijalankan
+- Untuk menutup jendela webcam, tekan "Esc"
+- Setelah jendela webcam tertutup, jendela non real-time face recognition akan ditampilkan
+- Untuk menutup, tekan tanda 'x' di pojok kanan atas
+
 ## ✨ Fitur
 - Deteksi wajah dari webcam secara real-time
 - Pengenalan wajah menggunakan metode Eigenfaces
@@ -49,7 +54,7 @@ python main.py
 ## 📷 Contoh Output
 Untuk real-time face recognition melalui webcam:
 ![Real-Time Face Recognition](preview.jpg)
-Non-real-time face recognition: 
+Non-real-time face recognition:  
 //masih ada beberapa kesalahan prediksi
 ![Non Real-Time Face Recognition](preview2.png)
 
