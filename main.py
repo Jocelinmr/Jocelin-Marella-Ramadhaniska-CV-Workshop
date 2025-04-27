@@ -199,3 +199,30 @@ while True:
 # Bersihkan resources
 cap.release()
 cv2.destroyAllWindows()
+
+# Visualisasi hasil prediksi pada data test
+plt.figure(figsize=(16, 10))
+rows, cols = 2, 5  # Grid 2x5
+max_images = rows * cols  # Maksimal 10 gambar
+
+for i in range(min(len(X_test), max_images)):  # Batasi iterasi hingga max_images
+    img_gray = X_test[i].reshape(face_size)
+    img = cv2.cvtColor(img_gray, cv2.COLOR_GRAY2BGR)
+    
+    sample_scores, sample_labels, sample_faces = eigenface_prediction(img_gray)
+    
+    # Pengecekan untuk memastikan sample_labels tidak kosong
+    if sample_labels:
+        result_image = draw_result(img, sample_scores, sample_labels, sample_faces)
+        plt.subplot(rows, cols, i + 1)  # Sesuaikan grid menjadi 2x5
+        plt.imshow(cv2.cvtColor(result_image, cv2.COLOR_BGR2RGB))
+        plt.title(f"True: {y_test[i]}\nPred: {sample_labels[0]}", fontsize=8)
+    else:
+        plt.subplot(rows, cols, i + 1)  # Sesuaikan grid menjadi 2x5
+        plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+        plt.title(f"True: {y_test[i]}\nPred: None", fontsize=8)
+    
+    plt.axis("off")
+
+plt.tight_layout()
+plt.show()
