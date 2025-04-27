@@ -12,7 +12,6 @@ Proyek ini merupakan implementasi sistem deteksi dan pengenalan wajah secara rea
 ├── main.py                     # Program utama real-time recognition
 ├── README.md                   # Dokumentasi proyek
 ├── requirements.txt            # List library yang dibutuhkan
-├── workshop.py                 # Kode face recognition yang tidak real-time
 ├── workshop.ipnyb              # Kode face recognition yang tidak real-time ditambah dengan dataset images Jocelin_Marella
 ```
 
